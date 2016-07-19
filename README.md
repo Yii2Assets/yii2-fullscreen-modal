@@ -34,7 +34,7 @@ Once the extension is installed, simply use it in your code by  :
    'footer' => '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                <button type="button" class="btn btn-primary">Save changes</button>',
 
-   'toggleButton' => ['label' => 'Open'],
+   'toggleButton' => ['label' => 'Open','class'=>'btn btn-primary'],
 ]);?>
 
 <p> Content </p>
