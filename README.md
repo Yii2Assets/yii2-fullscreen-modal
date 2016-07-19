@@ -1,6 +1,7 @@
 Yii2 Fullscreen Modal
 =====================
-[![Latest Stable Version](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/v/stable)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![Total Downloads](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/downloads)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![Latest Unstable Version](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/v/unstable)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![License](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/license)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![composer.lock](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/composerlock)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) 
+[![Latest Stable Version](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/v/stable)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![Total Downloads](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/downloads)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![Latest Unstable Version](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/v/unstable)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![License](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/license)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal) [![composer.lock](https://poser.pugx.org/yii2assets/yii2-fullscreen-modal/composerlock)](https://packagist.org/packages/yii2assets/yii2-fullscreen-modal)
+
 Bootstrap fullscreen modal
 
 Installation
