@@ -1,6 +1,6 @@
 Yii2 Fullscreen Modal
 =====================
-Fullscreen modal
+Bootstrap fullscreen modal
 
 Installation
 ------------
@@ -28,4 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \yii2assets\fullscreenmodal\AutoloadExample::widget(); ?>```
+
+<?php \yii2assets\fullscreenmodal\FullscreenModal::begin([
+   'header' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
+   'footer' => '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>',
+
+   'toggleButton' => ['label' => 'Open'],
+]);?>
+
+<p> Content </p>
+
+<?php FullscreenModal::end();?>
+
+```
+
+![](screenshort.png)
