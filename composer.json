@@ -1,0 +1,23 @@
+{
+    "name": "yii2assets/yii2-fullscreen-modal",
+    "description": "Fullscreen modal",
+    "homepage": "https://yii2assets.github.io/",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","fullscreen","modal"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sathit Seethaphon",
+            "email": "dixonsatit@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2assets\\fullscreenmodal\\": ""
+        }
+    }
+}

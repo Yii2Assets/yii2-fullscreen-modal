@@ -1,0 +1,95 @@
+
+.modal-fs .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-fs .modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border:none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.modal-fs .modal-header {
+  background-color: rgb(52, 73, 94);
+  background-color: #367fa9;
+}
+.modal-fs .help-block {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+.modal-fs .modal-title {
+  font-weight: normal;
+  color: #fff;
+}
+
+.modal-fs .modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 60px;
+  width: 100%;
+  overflow: auto;
+  padding:20px;
+}
+
+.modal-fs .modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  padding: 10px;
+  background: #f1f3f5;
+}
+
+.btn-modal {
+
+}
+
+.modal-fs .form-group {
+    margin-bottom:0px;
+}
+
+.modal-fs .control-label {
+    margin-bottom:0px;
+    opacity: 1;
+    visibility: visible;
+    color: #999;
+    font-size: 11px;
+    font-weight:normal;
+}
+
+/*.modal-fs .form-group input {
+  border: 1px solid rgba(52, 73, 94, 0.24);
+}*/
+
+.modal-fs .select2-container--krajee .select2-selection {
+  border: 1px solid #D5DCE4;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 33px;
+
+}
+.modal-fs .search-form .select2-container--krajee .select2-selection {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.modal-fs .select2-container--krajee .select2-selection--single .select2-selection__arrow {
+  border-left: none;
+}
+
+.modal-fs .search-form .btn-default {
+    border: 1px solid #D5DCE4;
+}
