@@ -36,10 +36,13 @@
 .modal-fs .modal-body {
   position: absolute;
   top: 50px;
-  bottom: 60px;
+  bottom: 0;
   width: 100%;
   overflow: auto;
   padding:20px;
+}
+.modal-fs .modal-body+.modal-footer{
+
 }
 
 .modal-fs .modal-footer {
