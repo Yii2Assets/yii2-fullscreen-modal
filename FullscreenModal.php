@@ -14,15 +14,25 @@ use yii\bootstrap\Modal;
  */
 class FullscreenModal extends Modal
 {
+    public $modalBodyPadding= '20px;';
 
     /**
      * Initializes the widget.
      */
     public function init()
     {
-        $this->options = array_merge([
+
+       $this->options = array_merge([
            'class' => 'modal-fs fade',
        ], $this->options);
+
+       $padding = $this->modalBodyPadding===false? '0' : $this->modalBodyPadding;
+       $this->getView()->registerCss("
+        .modal-fs .modal-body{
+          padding:{$padding};
+        }
+       ");
+
         parent::init();
 
         FullscreenModalAsset::register($this->getView());
