@@ -45,7 +45,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```
 
-![](screenshort.png)
+![](assets/screenshort1.png)
 
 Config modal-body no padding
 ----
@@ -67,4 +67,4 @@ Config modal-body no padding
 <?php FullscreenModal::end();?>
 
 ```
-![](screenshort2.png)
+![](assets/screenshort2.png)
