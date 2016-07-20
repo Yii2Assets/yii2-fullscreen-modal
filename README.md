@@ -47,9 +47,10 @@ Once the extension is installed, simply use it in your code by  :
 
 ![](screenshort.png)
 
-Config modalbodyPadding for modal-body no padding 
+Config modal-body no padding
 ----
-![](screenshort2.png)
+
+ `modalbodyPadding` => false, //false or set value '10px'
 
 ```php
 
@@ -66,3 +67,4 @@ Config modalbodyPadding for modal-body no padding
 <?php FullscreenModal::end();?>
 
 ```
+![](screenshort2.png)
